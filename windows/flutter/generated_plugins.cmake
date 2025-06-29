@@ -3,9 +3,18 @@
 #
 
 list(APPEND FLUTTER_PLUGIN_LIST
+  app_links
+  dynamic_color
+  file_selector_windows
+  firebase_core
+  flutter_secure_storage_windows
+  geolocator_windows
+  local_auth_windows
+  url_launcher_windows
 )
 
 list(APPEND FLUTTER_FFI_PLUGIN_LIST
+  flutter_local_notifications_windows
 )
 
 set(PLUGIN_BUNDLED_LIBRARIES)
